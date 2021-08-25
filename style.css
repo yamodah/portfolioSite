@@ -17,7 +17,7 @@ header{
     /*above 4 attributes are important for using a photo as a background messed around till the photo looked good ratio wise*/
     border: solid;
     /*online method allowing for outlining and changing the color of said outline*/
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.541);
+    -webkit-text-stroke: 1px black;
     }
 nav{
   margin: auto;
