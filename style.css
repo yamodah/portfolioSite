@@ -1,8 +1,11 @@
+/*backgorund color base color for webpage*/
 body{
     padding: 50px;
     background: #ffd19d
 }
+/*Name photo and few words grab attention*/
 header{
+    /*felt as though h1 font size didnt look as good as this size*/
   font-size: 32px;
   color: white;
   text-align: center;
@@ -11,7 +14,9 @@ header{
     background-repeat: no-repeat;
     background-size: 500px 175px;
     background-position: center;
+    /*above 4 attributes are important for using a photo as a background messed around till the photo looked good ratio wise*/
     border: solid;
+    /*online method allowing for outlining and changing the color of said outline*/
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.541);
     }
 nav{
@@ -21,6 +26,7 @@ nav{
     padding: 25px;
    
 }
+/*first colored box slightly darker than the background*/
 main{
   border-radius: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -28,6 +34,7 @@ main{
     background: #b87d6671
 
 }
+/*darker than main but only slightly*/
 section{
   border-radius: 50px;
     padding: 20px;
@@ -39,6 +46,7 @@ div{
   border-radius: 15px;
     padding: 10px;
 }
+/*instead of h2*/
 .sectionNames{
   color: white;
   
@@ -50,15 +58,19 @@ p{
     padding: 20px;
     background: #b87d6665
 }
+/*keeping the max width low and height auto keeps the image's proportions slight border radius to kind of crop the image*/
 img{
   max-width:15%;
   height: auto;
   opacity: 0.5;
   border-radius: 35%;
 }
+/*makes the numbers for the list white*/
 ol{
     color: white;
 }
+/*make the buttons a color to match the theme and slightly transparent add room on the sides to make it look nice to the eyes. 
+and space between the buttons*/
 .button{
   background:rgba(245, 245, 245, 0.486);
   padding-left: 10px;
@@ -72,6 +84,7 @@ ol{
   padding: 15px;
   margin-bottom: 10px;
 }
+/*4 below help give the links some life keeps the website from looking too dead*/
 a:link {
   color: green;
   text-decoration: none;
