@@ -56,6 +56,9 @@ img{
   opacity: 0.5;
   border-radius: 35%;
 }
+ol{
+    color: white;
+}
 .button{
   background:rgba(245, 245, 245, 0.486);
   padding-left: 10px;
